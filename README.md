@@ -6,4 +6,4 @@ The first part of the program consists of defining classes and functions to hand
 
 Finally we have two sections to write the data into a JSON file and to plot it.
 
-This program has been used to compute parts of the spectrum for a paper which is joint work with Richard Szabo. We also include the data of the computations of that paper in a seperate folder. This data is again packaged in JSON files and can be read with the main program.
+This program has been used to compute parts of the spectrum for a paper which is joint work with Richard Szabo. We also include the data of the computations of that paper in a seperate folder. This data is again packaged in JSON files and can be read with the main program. The only computation that is missing from the data section is the one with subcut=4 as the resulting file is too large to upload on github. Instead this data is reproduced by running the program with default settings.
