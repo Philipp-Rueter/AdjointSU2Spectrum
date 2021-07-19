@@ -2,7 +2,7 @@
 
 This program provides an algorithm to compute the BPS spectrum of the N=2* SU(2) theory, also known as the adjoint SU(2) theory, as it contains a hypermultiplet in the adjoint representation. The algorithm is built on the analysis of Longhi in his thesis "The Structure of BPS Spectra", which gives the spectrum on a wall of marginal stability, where one of the base charges aligns with the flavor charge. Starting from that spectrum, the algorithm does a step by step perturbation away from that wall and computes the new spectrum using the Kontsevich-Soibelman wall crossing formula.
 
-The first part of the program consists of defining classes and functions to handle the BPS states and their permutations. This leads to the definition of the main function which computes the spectrum on the basis of various parameters. The main section relevant for users is "Parameters and resulting Spectrum", in which all parameters are set and the spectrum is computed. This section also contains a short analysis of the spectrum, examining for example wall crossings with negative pairing or those than involve a vector multiplet.
+The first part of the program consists of defining classes and functions to handle the BPS states and their permutations. This leads to the definition of the main function which computes the spectrum on the basis of various parameters. The main sections relevant for users are "Parameters and Options" as well as "Resulting Spectrum and Diagnostics".
 
 Finally we have two sections to write the data into a JSON file and to plot it.
 
